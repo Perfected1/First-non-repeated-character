@@ -1,7 +1,7 @@
 body{
     /* background: linear-gradient(to bottom,  #f1f2f3, #0f0f0f); */
     text-align: center;
-    margin: 149px 224px;
+    margin: auto 20%;
     background: lightgray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
@@ -10,13 +10,16 @@ body{
     border: black solid 2px;
     border-radius: 15px;
     padding: 20px;
+    max-width: 100%;
+    min-width: 50%;
+    height: auto;
     background: linear-gradient(to bottom, #f8b500, #fceabb);
 }
 
 input {
 height: 40px;
 font-size: 20px;
-min-width: 20px;
+max-width: 200%;
 }
 
 button{
