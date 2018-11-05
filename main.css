@@ -1,0 +1,40 @@
+body{
+    /* background: linear-gradient(to bottom,  #f1f2f3, #0f0f0f); */
+    text-align: center;
+    margin: 149px 224px;
+    background: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.app {
+    border: black solid 2px;
+    border-radius: 15px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #f8b500, #fceabb);
+}
+
+input {
+height: 40px;
+font-size: 20px;
+min-width: 20px;
+}
+
+button{
+    width: 150px;
+}
+#output{
+    color: green;
+}
+input:hover{
+    border: white solid 1.5px;
+}
+button:hover{
+    font-size: 30px;
+    font-style: bold;
+    border: burlywood solid .5px
+}
+button {
+    font-size: 25px;
+    font-family: cursive;
+
+}
